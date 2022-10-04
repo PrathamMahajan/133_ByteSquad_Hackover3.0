@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>REGISTER</title>
+    <style>
+      body {
+        font-family: "poppins";
+        background-image: linear-gradient(
+            rgba(4, 9, 30, 0.799),
+            rgba(4, 9, 30, 0.799)
+          ),
+          url("./4.jpg");
+        background-size: cover;
+        color: aliceblue;
+      }
+      form {
+        padding: 150px 550px;
+      }
+    </style>
+    <script>
+    </script>
+  </head>
+  <body>
+    <form action="" id="Registration_Form">
+      <h1>REGISTER</h1>
+      Name: <input type="text" name="Name" id="Name" /><br /><br />
+      Phone No : <input type="number" name="PhoneNo" id="PhoneNo" /><br /><br />
+      DOB : <input type="date" name="DOB" id="DOB" /><br /><br />
+      Email: <input type="email" name="Email" id="Email" /><br /><br />
+      Username: <input type="text" name="Username" id="Username" /><br /><br />
+      Password: <input type="text" name="Password" id="Password" /><br /><br />
+      College Name: <input type="text" name="CollegeName" id="CollegeName" /><br /><br />
+      <h4>Already Registered?<a href="./Login_page.html">login</a></h4>
+      <input type="submit" value="SUBMIT" />
+    </form>
+  </body>
+</html>
