@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BookBuddy</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: "poppins";
+      }
+      li {
+        list-style: none;
+        padding: 8px;
+        display: inline;
+      }
+      ul {
+        float: right;
+        padding: 25px;
+        text-align: right;
+        display: flex;
+      }
+      img {
+        height: 150px;
+        width: auto;
+        padding: 25px;
+      }
+      body {
+        background-image: linear-gradient(
+            rgba(4, 9, 30, 0.7),
+            rgba(4, 9, 30, 0.7)
+          ),
+          url("./1.jpg");
+        background-size: cover;
+        color: aliceblue;
+      }
+      li a {
+        color: aliceblue;
+        text-decoration: none;
+      }
+
+      h1 {
+        padding-top: 35px;
+        text-align: center;
+        font-size: 55px;
+      }
+      h2 {
+        text-align: center;
+        font-style: normal;
+      }
+      .button {
+        display: inline-block;
+        border: 1px solid #fff;
+        padding: 13px 34px;
+        color: #fff;
+        text-decoration: none;
+        cursor: pointer;
+        position: relative;
+      }
+    </style>    
+  </head>
+  <body>
+    <img src="./2.png" alt="" />
+      <ul>
+        <li><a href="./index1.html"> HOME</a></li>
+        <li><a href="./Login_page.html">REGISTER / SIGN IN</a></li>
+        <li><a href="#">ABOUT US</a></li>
+      </ul>
+    <br />
+    <h1>WELCOME TO BOOKBUDDY!!</h1>
+    <br />
+    <h2>Share your live experiences and books to your friends</h2>
+    <h2>Let them explore what you have read!</h2>
+  </body>
+</html>
